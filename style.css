@@ -1,0 +1,90 @@
+html{
+	cursor: url(Pointer.cur), auto !important;
+}
+
+body {
+  background-color: Black;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: DFKai-sb;
+}
+h1 {
+  cursor: url(Text.cur), auto;
+  color: White;
+}
+h2 {
+  cursor: url(Text.cur), auto;
+  color: red;
+}
+
+h3 {
+  cursor: url(Text.cur), auto;
+  color: yellow;
+}
+
+a {
+  cursor: url(Associate.cur), auto;
+  font-family: DFKai-sb;
+}
+
+a:link {
+  color: yellow;
+  text-decoration: none;
+  display: inline-block;
+}
+a:visited {
+  color: Khaki;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover {
+  color: Aquamarine;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: Fuchsia;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+p {
+  cursor: url(Text.cur), auto;
+  color: lightgreen;
+  font-family: DFKai-sb;
+}
+
+pre {
+  cursor: url(Text.cur), auto;
+  color: lightgreen;
+  font-family: DFKai-sb;
+}
+b{
+  font-family: DFKai-sb;
+  color: aqua
+  
+}
+mark{
+  font-family: DFKai-sb;
+  color: gold;
+  background-color: black;
+  
+}
+
+ol {
+  color: lightgreen;
+}
+ul {
+  cursor: url(Text.cur), auto;
+  color: lightgreen;
+}
+
+
+table, th, td {
+  cursor: url(Text.cur), auto;
+  border: 1px solid white;
+  border-collapse: collapse;
+  border-spacing: 15px;
+  color: white;
+  font-size: 20px;
+}
